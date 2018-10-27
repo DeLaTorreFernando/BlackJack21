@@ -1,0 +1,13 @@
+DESCRIPCION DEL JUEGO
+El juego que se queremos realizar es el “black Jack” conocido también como “21” 
+consiste en que en una suma de cartas debes de llegar a una suma de 21 con los 
+números de las cartas sin pasarse de 21, en este juego pueden jugar hasta 7 personas 
+en donde estas competirán entre sí para llegar a 21 con la menor cantidad de cartas 
+En donde se apuesta cierta cantidad de dinero por lo general este juego es muy visto 
+en los casinos que tienen una cantidad mínima de dinero para poder apostar.
+ 
+Nosotros realizaremos el juego en “Windows forms” para hacer el juego visual y en el 
+que solo habrá un usuario jugando contra la “Casa” (casino), en donde se dejará que 
+el usuario pueda ingresar una cantidad que será su dinero inicial y que lo pueda repartir 
+en apuestas, cuando el usuario se quede sin dinero para apostar el juego le mande un 
+mensaje emergente que diga que no tiene más dinero y se cierre automáticamente 
