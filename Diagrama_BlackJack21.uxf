@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>320</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Pantalla_Para_Jugar::Carta
+--
+-Fichas: int 
+Jugador: List
+Repartidor: List
+--
+#Operations():
++IniciarJuego()
++Repartir()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>320</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Baraja::Carta
+--
+-Cartas: List
+--
+#Operations():
++Barajar()
++MostrarBaraja()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>40</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Carta::
+--
+-Palo:  enum
+-Cara:  enum
+-Valor: int
+--
+#Operations():
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>220</y>
+      <w>100</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>220</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
